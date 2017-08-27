@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: normal 1em 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  line-height: 150%;
+  color: #262626;
+}
+a {
+  text-decoration: none;
+  color: #076cd9;
+}
+a:hover {
+  color: #044080;
+  border-bottom: 1px solid #044080;
+}
+.title {
+  display: none;
+}
+.hide {
+  display: none;
+}
+.empty {
+  display: none;
+}
+#template {
+  margin: 60px 15%;
+  padding: 0 30px;
+}
+@media screen and (max-width: 800px) {
+  #template {
+    margin: 40px 10%;
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 640px) {
+  #template {
+    margin: 20px;
+    padding: 0;
+  }
+}
+.countdown.main {
+  margin: 0 auto;
+}
+.countdown.main .time {
+  display: block;
+}
+.countdown.main .text {
+  display: block;
+}
+.countdown .segment {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+.countdown .segment.y {
+  font-weight: bold;
+}
+.countdown .segment.y .number,
+.countdown .segment.y .unit {
+  color: #d90023;
+}
+.countdown .segment .number {
+  display: block;
+  font-size: 8em;
+  line-height: 100%;
+  font-family: 'Source Sans Pro';
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .countdown .segment .number {
+    font-size: 6.5em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .countdown .segment .number {
+    font-size: 5.5em;
+  }
+}
+@media screen and (max-width: 640px) {
+  .countdown .segment .number {
+    font-size: 4em;
+  }
+}
+.countdown .segment .unit {
+  display: block;
+  font-size: .8em;
+  color: #999;
+}
+.copy {
+  text-align: center;
+}
+.copy p,
+.copy ul {
+  margin: .5em 0;
+}
+.copy .remains {
+  margin: 2em 0;
+}
+.copy .arguments-intro,
+.copy .arguments-outro {
+  font-weight: bold;
+}
+.copy .arguments {
+  list-style-type: square;
+  padding: 0 10%;
+  text-align: left;
+}
+@media screen and (max-width: 640px) {
+  .copy .arguments {
+    padding: 0 10px;
+  }
+}
+.copy .arguments .argument:after {
+  content: ',';
+}
+.copy .arguments .argument:last-child:after {
+  content: '.';
+}
+.copy .candidate {
+  font-style: normal;
+  font-weight: bold;
+  color: #d90023;
+}
+#footer {
+  margin: 3em 0;
+  text-align: center;
+}
+#footer #footer-social {
+  line-height: 0;
+  margin: 3em 0;
+}
+@media screen and (max-width: 640px) {
+  #footer #footer-social {
+    text-align: center;
+  }
+}
+#footer #footer-social #footer-social-facebook,
+#footer #footer-social #footer-social-twitter {
+  width: 107px;
+  height: 20px;
+  display: inline-block;
+  margin: 0 .25em;
+  vertical-align: text-top;
+}
+@media screen and (max-width: 640px) {
+  #footer #footer-social #footer-social-facebook,
+  #footer #footer-social #footer-social-twitter {
+    text-align: center;
+  }
+}
+#footer #footer-social #footer-social-facebook {
+  text-align: right;
+}
+#footer #footer-social #footer-social-twitter {
+  text-align: left;
+}
+#footer #footer-logo {
+  margin: 1em 0;
+}
+@media screen and (max-width: 640px) {
+  #footer #footer-logo {
+    text-align: center;
+  }
+}
+#footer #footer-logo #logo {
+  font-family: 'Bree Serif';
+  text-decoration: none;
+  font-size: 1.5em;
+  line-height: 150%;
+}
+#footer #footer-logo #logo:hover {
+  border: none;
+}
+#footer #footer-logo #logo .w1 {
+  color: #044080;
+}
+#footer #footer-logo #logo .space {
+  display: none;
+}
+#footer #footer-logo #logo .w2 {
+  color: #076cd9;
+}
+#footer #footer-sites {
+  text-align: center;
+  margin: 1em 0;
+  color: #999;
+  font-size: .8em;
+  line-height: 150%;
+}
+#footer #footer-sites a {
+  color: #999;
+}
+#footer #footer-sites a:hover {
+  border-bottom: 1px solid #999;
+}
+#footer #footer-embed {
+  margin: 2em 0;
+}
+#footer #footer-embed h2 {
+  font-size: 1em;
+  line-height: 150%;
+  margin: 1em 0;
+}
+#footer #footer-embed textarea {
+  font: normal 0.7em/130% "Monaco", "Courier New", monospace;
+  width: 50%;
+  height: 75px;
+  padding: .5em;
+  border-top: 1px solid #BBB;
+  border-right: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+  border-left: 1px solid #BBB;
+  color: #999;
+  background-color: #FAFAFA;
+}
